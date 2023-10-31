@@ -1,0 +1,16 @@
+.intro-name{
+  height:90vh;
+  background-image: url('IMG_1175.GIF');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: fixed;
+}
+.intro-name{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+.intro-name h2{
+  color:white;
+  font-size: 100pt; 
+}

@@ -1,0 +1,34 @@
+body{
+  background-image: URL("/By.png");
+  background-attachment: fixed;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.row{
+  display: flex;
+  height:100vh;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.box{
+  box-shadow: 0 1px 40px #a6a6a6;
+  border-radius: 20px;
+  height:400px;
+  width:400px;
+}
+.first{
+  margin-top: 100px;
+}
+.js_img{
+  width:200px;
+}
+.js_comment{
+  color:#a44f30;
+  font-size:12pt;
+  text-align:justify;
+}
+h3{
+    margin-top:50px;
+    color:#a44f30;
+    font-size:20pt;
+}

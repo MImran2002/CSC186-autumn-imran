@@ -1,0 +1,35 @@
+body {
+  background-image: URL("/By.png");
+  background-attachment: fixed;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+#r1c2 {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  box-shadow: 0 1px 40px #a6a6a6;
+  border-radius: 20px;
+  height: 500px;
+  width: 500px;
+}
+
+.js_img {
+  width: 250px;
+}
+
+#js_comment {
+  font-size: 15pt;
+  font-weight: 500;
+  color: #a44f30;
+}
+h3{
+  margin-top:50px;
+  color:#a44f30;
+  font-size:20pt;
+}

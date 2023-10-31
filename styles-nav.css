@@ -1,0 +1,29 @@
+nav{
+  display:grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  height:100px;
+  background-color: #FFBF86;
+  font-size: 15pt;
+  color:white;
+  font-weight:bold;
+}
+nav img{
+  height:100px;
+  margin-left: 20px;;
+}
+ul{
+  display:flex;
+  flex-direction:row;
+  height:100px;
+  justify-content: space-evenly;
+  align-items:center;
+}
+a:link{
+  color:#a44f30;
+}
+a:hover{
+  color:#FFD8A9;
+}
+a:visited{
+  color:#a44f30;
+}

@@ -1,0 +1,131 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+#nav-1{
+  display: grid;
+  height: 90vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 2fr 1fr 1fr;
+  color:#a44f30;
+  font-size:34pt;
+  font-weight:bold
+}
+#nav-2{
+  display: grid;
+  height: 90vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 2fr 1fr 1fr;
+  color:#a44f30;
+  font-size:34pt;
+  font-weight:bold;
+}
+#nav-3{
+  display: grid;
+  height: 90vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 2fr 1fr 1fr;
+  color:#a44f30;
+  font-size:34pt;
+  font-weight:bold;
+}
+#span-1{
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start: 2;
+  grid-row-end:3;
+  display:flex;
+  flex-direction: row;
+  justify-content:end;
+  align-items: start;
+}
+.span-2{
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start: 3;
+  grid-row-end:4;
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+}
+#span-3{
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start: 4;
+  grid-row-end:5;
+  display:flex;
+  flex-direction: row;
+  justify-content:end;
+  align-items: end;
+}
+#buddha{
+  height:500px;
+}
+#span-4{
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start: 4;
+  grid-row-end:5;
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+}
+#span-5{
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start: 2;
+  grid-row-end:3;
+  display:flex;
+  flex-direction: row;
+  justify-content:start;
+  align-items: start;
+}
+#span-6{
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start: 3;
+  grid-row-end:4;
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items:center;
+}
+#span-7{
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start: 4;
+  grid-row-end:5;
+  display:flex;
+  flex-direction: row;
+  justify-content:start;
+  align-items: end;
+}
+#footer-copyright{
+  height:10vh;
+  width:100%;
+  color: black;
+  font-size: 11pt;
+  font-family: sans-serif;
+}
+a:link{
+  color:#a44f30;
+}
+a:hover{
+  color:#FFD8A9;
+}
+a:visited{
+  color:#a44f30;
+}
+.pale{
+  color: #f3c1af;
+}
+a{
+  cursor: pointer;
+}
+p{
+  font-size: 20pt;
+  text-align:justify;
+  color:#a44f30;
+}
